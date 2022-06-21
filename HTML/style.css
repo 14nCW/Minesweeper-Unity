@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/quicksand/v29/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18E.ttf) format('truetype');
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  margin-top: 10em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  justify-content: center;
+}
+body div {
+  display: flexbox;
+  align-self: center;
+}
+body div textarea {
+  border: none;
+  text-align: center;
+  margin: 3em;
+  height: 5em;
+  resize: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+body div textarea:active {
+  border: none;
+}
+body div ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+body div li {
+  list-style: none;
+}
+body div button {
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding-left: 0;
+}
+body div .divWygrana {
+  font-weight: bold;
+  padding: 1em;
+  margin: 0.75em;
+}

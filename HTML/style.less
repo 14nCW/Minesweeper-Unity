@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+html {
+  // scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  margin-top: 10em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  justify-content: center;
+  div {
+    display: flexbox;
+    align-self: center;
+    textarea {
+      border: none;
+      text-align: center;
+      margin: 3em;
+      height: 5em;
+      resize: none;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    textarea:active {
+      border: none;
+    }
+    ul {
+      list-style-position: inside;
+      padding-left: 0;
+    }
+    li {
+      list-style: none;
+    }
+    button {
+      font-weight: bold;
+      font-size: 1.5em;
+      cursor: pointer;
+      border: none;
+      background: none;
+      padding-left: 0;
+    }
+    .divWygrana {
+      font-weight: bold;
+      padding: 1em;
+      margin: 0.75em;
+    }
+  }
+}
